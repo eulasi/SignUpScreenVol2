@@ -66,11 +66,10 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-
-
-    implementation ("androidx.compose.ui:ui:1.0.0")
-    implementation ("androidx.compose.material:material:1.0.0")
-    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha07")
-    implementation ("androidx.activity:activity-compose:1.3.0-alpha08")
+    // Additional Dependencies
+    implementation (libs.ui)
+    implementation (libs.androidx.material)
+    implementation (libs.androidx.lifecycle.viewmodel.compose)
+    implementation (libs.androidx.activity.compose.v130alpha08)
 
 }
